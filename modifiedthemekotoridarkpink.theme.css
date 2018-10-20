@@ -1,0 +1,86 @@
+//META{"name":"Transparent/color","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.0"}*//{}
+/*To change the brightness, change the rgba(0,0,0,0.18) at the bottom*/
+/*Transparency*/
+#voice-connection, 
+#friends, 
+.friends-header, 
+.friends-table, 
+.guilds-wrapper, 
+.guild-header header, 
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.chat, 
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .ui-standard-sidebar-view, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .channel-members,
+.container-2OU7Cz,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .typing-3eiiL_,
+.theme-dark .activityFeed-HeiGwL,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.appMount-3VJmYg,
+.container-2lgZY8,
+.channels-Ie2l6A,
+.container-PNkimc,
+.container-2Thooq,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .members-1998pB,
+.theme-dark .chat-3bRxxu,
+.theme-dark .content-yTz4x3,
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .chat-3bRxxu form ,
+.theme-dark .guildsWrapper-5TJh6A{
+  background: transparent !important;
+}
+.theme-dark .card-2WxYqG {
+    background-color: rgba(54, 57, 63, 0.3)!important;
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {
+    background: rgba(0, 0, 0, 0.18) !important;
+}
+.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S, .nameDefaultText-24KCy5, .name-2WpE7M, .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+    color: #dddddd!important;
+}
+.nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
+    color: #a0a0a0!important;
+}
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI, .guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI {
+    color: #e876ab!important;
+}
+.guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI{
+    background: #e876ab!important;
+}
