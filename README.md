@@ -16,3 +16,16 @@ You can put whatever image link you want between the url.
 You can also edit the .theme.css file with notepad, using inspect element (ctrl + i) to find the name of the things you want to modify.
 
 Note that this code is developed from the universal theme fixer, but I can't find the original post. 
+
+Edit:
+
+For bigger images, you can use the following: (image is welcome employer from girls' frontline)
+
+.app {
+background-image: url(https://i.imgur.com/4Os2ogD.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
+
+this will automatically resize and center your image no matter how you size your window.
