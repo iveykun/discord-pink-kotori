@@ -1,7 +1,7 @@
 //META{"name":"Transparent/color","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.1"}*//{}
 /*To change the brightness, change the rgba(0,0,0,0.18) at the bottom*/
 /*Transparency*/
-.app { background-image: url(https://mdbootstrap.com/img/Photos/Others/background.jpg); }
+.app { background-image: url("myBackground"); }
 #voice-connection,
 #friends,
 .account,
