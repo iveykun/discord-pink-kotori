@@ -30,3 +30,5 @@ background-size: cover;
 }
 
 this will automatically resize and center your image no matter how you size your window.
+
+Edit2: I think there the ".app {" part should be removed from the main file, it should be easier to change background urls in the better discord app itself, no? So people can change the background and test it without messing with the .theme.css file, which is hidden in layers of folders
