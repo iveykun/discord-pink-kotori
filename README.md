@@ -9,7 +9,7 @@ Then, download my theme (.theme.css file) into the themes folder (C:\Users\*your
 Go into your Discord, and at the bottom of your settings, you should find a label "Themes" in which you should be able to enable my theme.
 Final step is to copy paste the following into "Custom CSS" in the Discord settings:
 
-.app {
+.app-19_DXt {
 background-image: url();
 }
 
@@ -22,7 +22,7 @@ Edit:
 
 For bigger images, you can use the following: (image is welcome employer from girls' frontline)
 
-.app {
+.app-19_DXt {
 background-image: url(https://i.imgur.com/4Os2ogD.png);
 background-repeat: no-repeat;
 background-position: center;
