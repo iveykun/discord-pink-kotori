@@ -1,13 +1,14 @@
-//META{"name":"Transparent/color","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.1"}*//{}
-/*To change the brightness, change the rgba(0,0,0,0.18) at the bottom*/
+//META{"name":"Transparent/color3","description":"makes everything transparent and adjusts color to pink","author":"iveykun","version":"1.3"}*//{}
+
 /*Transparency*/
-.app { background-image: url("myBackground"); }
+.app
 #voice-connection,
 #friends,
 .account,
 .appMount-3VJmYg,
 [class^="activityFeed"],
 [class^="applicationStore"],
+
 [class^="card"],
 .channels-wrap,
 [class^="channels"],
@@ -87,9 +88,20 @@
 .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ {
     color: #a0a0a0!important;
 }
-.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI, .guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI {
+.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI, .guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI, .unread-2OHH1w:before, .nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI, .guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI, .unread-2OHH1w:before, .item-2hkk8m, .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeConnected-2IEL4z:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg, .theme-light .wrapper-1ucjTd.modeUnread-1zpFdA:hover .name-3_Dsmg{ /*these are all the notification pink channels*/
     color: #e876ab!important;
+
 }
 .guild-1EfMGQ.unread-qLkInr:before, .unread-1Dp-OI{
     background: #e876ab!important;
+}
+.timestampCozy-2hLAPV{
+    color: #666666!important
+}
+.edited-DL9ECl{
+    color: #666666!important
+}
+.item-2hkk8m, .unread-3zKkbm{ /*this is the small notif circle and the currently active chat bar*/
+    background-color: #e876ab!important;
+
 }
