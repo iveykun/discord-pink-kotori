@@ -31,4 +31,18 @@ background-size: cover;
 
 this will automatically resize and center your image no matter how you size your window.
 
-Edit2: I think there the ".app {" part should be removed from the main file, it should be easier to change background urls in the better discord app itself, no? So people can change the background and test it without messing with the .theme.css file, which is hidden in layers of folders
+Edit 2: I think there the ".app {" part should be removed from the main file, it should be easier to change background urls in the better discord app itself, no? So people can change the background and test it without messing with the .theme.css file, which is hidden in layers of folders
+
+Edit 3: URL is Kaede in front of her school
+Emoji jumboable makes emotes bigger :D
+
+.app-19_DXt {
+background-image: url(https://i.imgur.com/pyNG9cx.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
+.emoji.jumboable{
+    height:5rem;
+    width:5rem;
+}
