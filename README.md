@@ -1,5 +1,5 @@
 # discord-pink-kotori
-
+**READ IN RAW FOR PROPER FORMATTING**
 
 Theme for BetterDiscord (Pink) with any picture (kotori is stock)
 The modifications are as follow: The main interface is transparent, so that the app body can contain an image of your choice. Active channels are white, with unread channels pink (color matched with unread dots) muted channels are gray. I haven't touched the friend colors either, so they stay gray.
@@ -18,8 +18,7 @@ You can also edit the .theme.css file with notepad, using inspect element (ctrl 
 
 Note that this code is developed from the universal theme fixer, but I can't find the original post. 
 
-**Edit:
-**
+**Edit**
 For bigger images, you can use the following: (image is welcome employer from girls' frontline)
 
 .app-19_DXt {
