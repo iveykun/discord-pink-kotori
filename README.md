@@ -21,8 +21,8 @@ Note that this code is developed from the universal theme fixer, but I can't fin
 **Edit**
 For bigger images, you can use the following: (image is welcome employer from girls' frontline)
 
-.app-19_DXt {
-background-image: url(https://i.imgur.com/4Os2ogD.png);
+.theme-dark {
+background-image: url(https://i.imgur.com/UZk22dv.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover; 
@@ -32,12 +32,12 @@ this will automatically resize and center your image no matter how you size your
 
 ~~*Edit 2* : I think there the ".app {" part should be removed from the main file, it should be easier to change background urls in the better discord app itself, no? So people can change the background and test it without messing with the .theme.css file, which is hidden in layers of folders~~
 
-**Edit 3: URL is Kaede in front of her school
+**Edit 3: URL is Lucia holding hands
 Emoji jumboable makes emotes bigger 
 (number)rem is the size, change 5 to 4 or 3 if it's too big :D**
 
-.app-19_DXt {
-background-image: url(https://i.imgur.com/pyNG9cx.png);
+.theme-dark {
+background-image: url(https://i.imgur.com/UZk22dv.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover; 
