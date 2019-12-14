@@ -1,6 +1,20 @@
 # discord-pink-kotori
 **READ IN RAW FOR PROPER FORMATTING**
-WORKS AS OF 2019.09.10 19:58
+WORKS AS OF 2019.12.13 21:32
+
+UPDATE 12/13: now works on browser
+
+For browser, copy everything in the css file and upload to a style editor like 'custom style scripts' inside the style - CSS box. Then, add this in the same space. if you press ctrl-I and scroll down, you should be able to see the words colored (that means it has been applied.
+
+.bg-h5JY_x {
+background-image: url();
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover; 
+}
+
+You can change the picture inside the URL() to whatever you like.
+
 
 Theme for BetterDiscord (Pink) with any picture (kotori is stock)
 The modifications are as follow: The main interface is transparent, so that the app body can contain an image of your choice. Active channels are white, with unread channels pink (color matched with unread dots) muted channels are gray. I haven't touched the friend colors either, so they stay gray.
@@ -10,7 +24,7 @@ Then, download my theme (.theme.css file) into the themes folder (C:\Users\*your
 Go into your Discord, and at the bottom of your settings, you should find a label "Themes" in which you should be able to enable my theme.
 Final step is to copy paste the following into "Custom CSS" in the Discord settings:
 
-.app-19_DXt {
+.bg-h5JY_x {
 background-image: url();
 }
 
