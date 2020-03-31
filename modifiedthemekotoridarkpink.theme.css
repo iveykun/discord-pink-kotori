@@ -1,11 +1,13 @@
-//META{"name":"Transparent/color2","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.3"}*//{}
+//META{"name":"Transparent/color2","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.1"}*//{}
 /*To change the brightness, change the rgba(0,0,0,0.18) at the bottom*/
+
 /*Transparency*/
-.app
+.app,
 #voice-connection,
 #friends,
 .account,
 .appMount-3VJmYg,
+
 [class^="activityFeed"],
 [class^="applicationStore"],
 
@@ -25,13 +27,14 @@
 [class^="container"],
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .friend-table-add-header,
-.firefoxFixScrollFlex-cnI2ix,
+
 .friends-header,
 .friends-table,
 [class^="flex"],
 [class^="gameLibrary"],
 .guild-channels,
-[class^="scroller"],
+.guilds-1SWlCJ,
+
 .guild-header header,
 .guilds-wrapper,
 .guildsWrapper-5TJh6A,
@@ -49,12 +52,11 @@
 .private-channels,
 .privateChannels-1nO12o,
 .private-channel-call,
-.scroller-2FKFPG,
-.scroller-2wx7Hm,
 .platform-win,
 .privateChannels-1nO12o,
 .sidebar-2K8pFh,
 .search .search-bar,
+.scroller-2TZvBN
 .search-bar .search-bar-light,
 [class^="scroller"],
 [class^="typing"],
@@ -64,7 +66,8 @@
 .ui-standard-sidebar-view,
 .ui-standard-sidebar-view .sidebar-region,
 .ui-standard-sidebar-view .content-region,
-.video-3lOWa6{
+.video-3lOWa6
+.wrapper-1Rf91z{
   background: transparent !important;
 }
 .search-bar.da-searchBar{
@@ -112,4 +115,8 @@
 .item-2hkk8m, .unread-3zKkbm{ /*this is the small notif circle and the currently active chat bar*/
     background-color: #e876ab!important;
 
+}
+/*this is to make sure that when you click on someone's name it's not invisible behind*/
+[class="scrollerWrap-2lJEkd body-3iLsc4 scrollerThemed-2oenus themeGhostHairline-DBD-2d scrollerFade-1Ijw5y"]{
+background: #36393f!important
 }
