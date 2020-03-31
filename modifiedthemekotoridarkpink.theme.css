@@ -91,7 +91,7 @@
 .layer-3QrUeG,
 .layers-3iHuyZ,
 .typeWindows-15E0Ys{
-    background: rgba(0, 0, 0, 0.18) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
 }
 .colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S, .nameDefaultText-24KCy5, .name-2WpE7M, .nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
     color: #dddddd!important;
@@ -115,20 +115,22 @@
 .item-2hkk8m, .unread-3zKkbm{ /*this is the small notif circle and the currently active chat bar*/
     background-color: #e876ab!important;
 
-} /*this is the menu that appears when you click someone's name*/
+}
 [class="scrollerWrap-2lJEkd body-3iLsc4 scrollerThemed-2oenus themeGhostHairline-DBD-2d scrollerFade-1Ijw5y"]{
 background: #36393f!important;
 scrollbar-color: transparent!important
+
 }
 [class="resultsGroup-r_nuzN"]{
-background: #36393f!important
-} /*change scrollbar to something prettier*/
+background-color: #36393f!important
+}
+
 .scroller-2FKFPG::-webkit-scrollbar {
   width: 21px;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: #36393f;   /*change this color to your liking*/
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrol);lbar-thumb {
+  background-color: transparent;
   border-color: transparent;
 }
 
@@ -136,4 +138,15 @@ background: #36393f!important
   background-color: transparent;
   border: none;
   border-radius: 4px;
+}
+.panels-j1Uci_{
+background-color: transparent;
+}
+.channelTextArea-rNsIhG,
+.scrollableContainer-2NUZem,
+.nowPlayingColumn-2sl4cE{
+background-color: rgba(0,0,0,0.15);
+}
+.form-2fGMdU:before {
+width: 0;
 }
