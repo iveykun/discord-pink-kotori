@@ -1,4 +1,4 @@
-//META{"name":"Transparent/color2","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.1"}*//{}
+//META{"name":"Transparent","description":"makes everything transparent and adjusts color","author":"iveykun","version":"1.1"}*//{}
 /*To change the brightness, change the rgba(0,0,0,0.18) at the bottom*/
 
 /*Transparency*/
@@ -115,8 +115,25 @@
 .item-2hkk8m, .unread-3zKkbm{ /*this is the small notif circle and the currently active chat bar*/
     background-color: #e876ab!important;
 
-}
-/*this is to make sure that when you click on someone's name it's not invisible behind*/
+} /*this is the menu that appears when you click someone's name*/
 [class="scrollerWrap-2lJEkd body-3iLsc4 scrollerThemed-2oenus themeGhostHairline-DBD-2d scrollerFade-1Ijw5y"]{
+background: #36393f!important;
+scrollbar-color: transparent!important
+}
+[class="resultsGroup-r_nuzN"]{
 background: #36393f!important
+} /*change scrollbar to something prettier*/
+.scroller-2FKFPG::-webkit-scrollbar {
+  width: 21px;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background-color: #36393f;   /*change this color to your liking*/
+  border-color: transparent;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
 }
