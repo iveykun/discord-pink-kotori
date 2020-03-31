@@ -35,8 +35,7 @@ You can also edit the .theme.css file with notepad, using inspect element (ctrl 
 Note that this code is developed from the universal theme fixer, but I can't find the original post. 
 
 **Edit**
-For bigger images, you can use the following: (image is welcome employer from girls' frontline)
-
+For bigger images, you can use the following: 
 .bg-h5JY_x {
 background-image: url(https://i.imgur.com/UZk22dv.jpg);
 background-repeat: no-repeat;
