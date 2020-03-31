@@ -1,6 +1,6 @@
 # discord-pink-kotori
 **READ IN RAW FOR PROPER FORMATTING**
-WORKS AS OF 2019.12.13 21:32
+WORKS AS OF 2020.3.31 14:18
 
 UPDATE 12/13: now works on browser
 
@@ -15,8 +15,9 @@ background-size: cover;
 
 You can change the picture inside the URL() to whatever you like.
 
-
-Theme for BetterDiscord (Pink) with any picture (kotori is stock)
+The code should still work in betterdiscord.
+*********
+Theme for BetterDiscord (Pink) with any picture
 The modifications are as follow: The main interface is transparent, so that the app body can contain an image of your choice. Active channels are white, with unread channels pink (color matched with unread dots) muted channels are gray. I haven't touched the friend colors either, so they stay gray.
 
 First, you will need to download Bandaged Better Discord (https://rauenzi.github.io/BetterDiscordApp/)
@@ -36,7 +37,7 @@ Note that this code is developed from the universal theme fixer, but I can't fin
 **Edit**
 For bigger images, you can use the following: (image is welcome employer from girls' frontline)
 
-.theme-dark {
+.bg-h5JY_x {
 background-image: url(https://i.imgur.com/UZk22dv.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -51,7 +52,7 @@ this will automatically resize and center your image no matter how you size your
 Emoji jumboable makes emotes bigger 
 (number)rem is the size, change 5 to 4 or 3 if it's too big :D**
 
-.theme-dark {
+.bg-h5JY_x {
 background-image: url(https://i.imgur.com/UZk22dv.jpg);
 background-repeat: no-repeat;
 background-position: center;
